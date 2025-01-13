@@ -1,0 +1,16 @@
+a{
+    text-decoration-thickness: 1px;
+    text-decoration-color:red ;
+    transition: color 2s, text-decoration-color 1500ms;
+    text-decoration-style: wavy;
+    /* text-decoration-skip-ink: none; */
+    /* however use with care because it willl just write the line oever content */
+    /* text-decoration-line: line-through;  can also be an underline or overline*/
+    text-underline-offset: 1em;
+    /* Addition of a space below  */
+
+}
+a:focus, 
+a:hover{
+  text-decoration-color: blue;  
+}
