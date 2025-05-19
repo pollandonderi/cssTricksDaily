@@ -1,0 +1,76 @@
+/* .collectivecontainer{
+   width: min(1100px,98%);
+   border: 1px solid rgb(0, 255, 136);
+   display: grid;
+grid-template-columns: repeat(auto-fit, minmax(min(22rem, 100%), 1fr));
+
+}
+.inside{
+    border: 1px solid red;
+    height: 20px;
+    margin: 1em;
+    width: 100px;
+} */
+
+/* the elements below  the top flex occopy the whole width
+.collectivecontainer{
+   width: min(1100px,98%);
+   border: 1px solid rgb(0, 255, 136);
+   display: flex;
+    flex-wrap: wrap;
+
+}
+.inside{
+    border: 1px solid red;
+    height: 20px;
+    margin: 1em;
+    width: 100px;
+}
+.collectivecontainer >*{
+    flex: 1;
+} */
+
+/* To have a scroll on snap and move the elements to the next one */
+/* .collectivecontainer{
+   width: min(1100px,98%);
+   border: 1px solid rgb(0, 255, 136);
+   display: grid;
+    grid-auto-columns: 50%;
+    grid-auto-flow: column;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scroll-padding
+    : 1em;
+
+}
+.collectivecontainer >*{
+    scroll-snap-align:start; ;
+}
+.inside{
+    border: 1px solid red;
+    height: 20px;
+    margin: 1em;
+    width: 100px;
+
+} */
+
+/* to have a container with a maincontainer with content and a sidebar like container with more content */
+/* we are just using this 99999 which is just really a big number to ensure that this takes precedence over last child flex-grow because it uses a higher value
+.container{
+  display: flex;
+  background-color: lightblue;
+  color: black;
+  align-items: start;
+  flex-wrap: wrap;
+  
+}
+.container > :first-child{
+border: 3px solid red;
+    flex-basis: 500px;
+    flex-grow: 9999;
+}
+.container > :last-child{
+flex-basis: 300px;
+flex-grow: 1;
+border: 3px solid blue;
+} */
